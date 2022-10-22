@@ -1,0 +1,381 @@
+body {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+#logo {
+    height: 259px;
+    width: 259px;
+    position: absolute;
+}
+
+header {
+    margin: 0%;
+    background-image: url(/images/headerbg.svg);
+    background-repeat: repeat;
+}
+
+.h3 {
+    color: #000;
+    margin: 0 0 0 25%;
+    font-size: 60px;
+    font-family: "Tangerine", serif;
+}
+
+.s {
+    text-decoration: #C8A650;
+    margin-left: 300px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+#gmail {
+    color: #c8a650;
+    padding-top: 40px;
+}
+
+#g {
+    padding-left: 300px;
+}
+
+.d {
+    text-decoration: #C8A650;
+    margin-left: 300px;
+    font-size: 20px;
+    color: #000;
+}
+
+#call {
+    color: #c8a650;
+}
+
+.nav ul {
+    padding: 0cm;
+    list-style: none;
+    margin: 10px 0px 0px 260px;
+}
+
+.nav {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav li a {
+    width: 180px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: rgb(63, 61, 61);
+    text-align: center;
+    background-color: #fff;
+    border: solid 1px #000;
+    border-radius: 60px;
+}
+
+.nav li a:hover {
+    background-color: #000;
+    color: #C8A650;
+    text-transform: uppercase;
+}
+
+.dropbtn:hover {
+    background-color: #000;
+    color: #C8A650;
+    text-transform: uppercase;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+}
+
+.low {
+    display: flex;
+    background-color: #514e47;
+    width: 100%;
+}
+
+.low ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+.low ul li {
+    float: left;
+}
+
+.low li a {
+    display: inline;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: #000;
+    text-align: center;
+}
+
+.low li a:hover {
+    color: #C8A650;
+}
+
+#insta {
+    text-decoration: none;
+    color: #000;
+    margin-left: 65%;
+    font-size: 20px;
+    padding-top: 0;
+    margin-top: 2px;
+}
+
+.sel {
+    background-color: #C8A650;
+}
+
+.a {
+    height: 250px;
+    width: 100%;
+    background-image: url(/images/pro.jpg);
+    background-size: contain;
+}
+
+.a h1 {
+    text-align: center;
+    padding: 8%;
+    color: #f1f1f1;
+}
+
+.b {
+    height: 250px;
+    width: 100%;
+    background-image: url(/images/contact.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.b h1 {
+    text-align: center;
+    padding: 8%;
+    color: #f1f1f1;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container>div {
+    border: solid #514e47;
+    background-image: url(/images/probg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    margin: 20px 20px 20px 80px;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 18px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+.but {
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #C8A650;
+    color: #C8A650;
+}
+
+.but:hover {
+    background: #c8a650;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-image: url(/images/bg.svg);
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #C8A650;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #C8A650;
+    text-decoration: none;
+    font-weight: 300;
+    color: #c8a650;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #C8A650;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #c8a650;
+    background-color: #ffffff;
+}
+
+#copyright {
+    color: #C8A650;
+}
+
+#foot-im {
+    height: 100px;
+    width: 100px;
+}
+
+.ai {
+    height: 1000px;
+    width: 100%;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8ac409100731909.5f0f6b5688d86.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.commande {
+    margin: 100px;
+}
+
+
+/*responsive*/
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+    .flex-container>div {
+        border: solid #514e47;
+        background-image: url(/images/probg.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 500px;
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+        border-radius: 35%;
+        font-size: 18px;
+    }
+}
